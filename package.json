@@ -1,0 +1,25 @@
+{
+  "name": "common-utils",
+  "description": "This package contains a bunch of common utility functions",
+  "author": {
+    "name": "naughtyfinch"
+  },
+  "license":"MIT",
+  "repository": {
+    "url": "https://github.com/naughtyfinch/common-utils"
+  },
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "jest": "^29.7.0"
+  }
+}
