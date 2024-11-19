@@ -1,12 +1,10 @@
 {
-  "name": "common-utils",
+  "name": "@naughtyfinch/common-utils",
   "description": "This package contains a bunch of common utility functions",
-  "author": {
-    "name": "naughtyfinch"
-  },
-  "license":"MIT",
+  "author": "naughtyfinch",
+  "license": "MIT",
   "repository": {
-    "url": "https://github.com/naughtyfinch/common-utils"
+    "url": "git+https://github.com/naughtyfinch/common-utils.git"
   },
   "module": "index.ts",
   "type": "module",
@@ -21,5 +19,13 @@
   },
   "dependencies": {
     "jest": "^29.7.0"
-  }
+  },
+  "version": "0.1.0",
+  "directories": {
+    "test": "tests"
+  },
+  "bugs": {
+    "url": "https://github.com/naughtyfinch/common-utils/issues"
+  },
+  "homepage": "https://github.com/naughtyfinch/common-utils#readme"
 }
